@@ -1,0 +1,74 @@
+This is a collection of image attributions (APA 7th).
+
+Path:
+images/menu/classicburger.webp
+Attribution:
+From <em>Hamburger</em> [Photograph], by Shutterbug75, 2006, Pixabay. (https://pixabay.com/photos/hamburger-burger-barbeque-bbq-beef-1238246/). Pixabay License.
+
+Path:
+images/menu/spaghettibolognese.webp
+Attribution:
+From <em>Spaghetti Bolognese</em> [Photograph], by monika1607, 2019, Pixabay. (https://pixabay.com/photos/spaghetti-bolognese-italian-court-4546233/). Pixabay License.
+
+Path:
+images/menu/classicchips.webp
+Attribution:
+From <em>French Fries</em> [Photograph], by Pexels, 2016, Pixabay. (https://pixabay.com/photos/bowl-french-fries-food-fries-1842294/). Pixabay License.
+
+Path:
+images/menu/greeksalad.webp
+Attribution:
+From <em>Greek Salad</em> [Photograph], by baklava, 2014, Pixabay. (https://pixabay.com/photos/feta-cheese-greek-salad-salad-greek-581848/). Pixabay License.
+
+Path:
+images/menu/icedtea.webp
+Attribution:
+From <em>Iced Tea</em> [Photograph], by fernandovillalobos, 2017, Pixabay. (https://pixabay.com/photos/tea-cold-ice-2220485/). Pixabay License.
+
+Path:
+images/index/pizza.jpg
+Attribution:
+From <em>Pizza</em> [Photograph], by igorovsyannykov, 2013, Pixabay. (https://pixabay.com/photos/pizza-food-italian-baked-cheese-3007395/). Pixabay License.
+
+Path:
+images/index/greeksalad.jpg
+Attribution:
+From <em>Greek Salad</em> [Photograph], by Daria-Yakovleva, 2017, Pixabay. (https://pixabay.com/photos/salad-food-italian-tasty-wooden-2068220/). Pixabay License.
+
+Path:
+images/index/Spaghetti.jpg
+Attribution:
+From <em>Pasta</em> [Photograph], by ragabz, 2021, Pixabay. (https://pixabay.com/photos/pasta-penne-noodles-spaghetti-food-6156638/). Pixabay License.
+
+Path:
+images/index/fries.jpg
+Attribution:
+From <em>Fries</em> [Photograph], by paxels, 2016, Pixabay. (https://pixabay.com/photos/fast-food-food-french-fries-fries-1839052/). Pixabay License.
+
+Path:
+images/index/slide1.jpg
+Attribution:
+From <em>Beer</em> [Photograph], by tookapic, 2015, Pixabay. (https://pixabay.com/photos/beer-glass-table-sky-mountains-932994/). Pixabay License.
+
+Path:
+images/index/slide2.jpg
+Attribution:
+From <em>Abstract American</em> [Photograph], by shutterbug75, 2016. (https://pixabay.com/photos/abstract-american-background-1238657/). Pixabay License.
+
+Path:
+images/index/slide3.jpg
+Attribution:
+From <em>Burger</em> [Photograph], by pixmedia, 2017, Pixabay. (https://pixabay.com/photos/veggie-vegetarian-vegan-quinoa-2281212/). Pixabay License.
+
+Path:
+images/index/pizzaExclusive.jpg
+Attribution:
+From <em>Pizza</em> [Photograph], by stillinbeta, 2017, Pixabay. (https://pixabay.com/vectors/pizza-minimalist-food-italian-flat-2833748/). Pixabay License.
+
+images/index/burgerExclusive.jpg
+Attribution:
+From <em>Burger</em> [Photograph], by dooffy, 2018, Pixabay. (https://pixabay.com/illustrations/hamburger-burger-food-meat-fast-3278191/). Pixabay License.
+
+images/index/drinkExclusive.jpg
+Attribution:
+From <em>Drink</em> [Photograph], by open-clipartvectors, 2017, Pixabay. (https://pixabay.com/vectors/bar-drink-glass-beverage-icon-pub-2027075/). Pixabay License.

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Adding the file name -->
+    <meta name="Description" content="Shopping Cart">
+
+    <!-- Open Sans Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
+
+    <!-- adding ionicon which will allow us to add icons with text -->
+    <link href="https://unpkg.com/ionicons@5.4.0/dist/ionicons.min.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Linking the CSS file -->
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/cart.css">
+    <title>Shopping Cart</title>
+</head>
+
+
+<body>
+    <header>
+        <!-- Creating the navigation bar -->
+        <nav>
+            <div class="logo"><img src="images/logo.png" alt="logo"></div>
+            <div class="navLinks" id="myNavLinks">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="location.html">Location</a></li>
+                    <li><a href="meal.html">Pick Me A Meal</a></li>
+                    <li class = "cart navLinks-right">
+                        <a href="cart.html" class = "cart navLinks-right">
+                            <ion-icon name="basket"></ion-icon>Cart <span>0</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <a href="#" class="toggleButton">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+        </nav>
+    </header>
+
+    <!-- Cart's Body -->
+    <main>
+        <h2 class="page-title">Your Cart <ion-icon name="cart"></ion-icon></h2>
+        <div class="products-container">
+            <div class="product-header">
+                <h5 class="product-title">PRODUCT</h5>
+                <h5 class="price">PRICE</h5>
+                <h5 class="quantity">QUANTITY</h5>
+                <h5 class="total">TOTAL</h5>
+            </div>
+            <div class="products">
+            </div>
+            <div>
+                <a href="#" class="buy-btn">Buy Items</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Adding the footer -->
+    <footer>
+        <div class="logo"><img src="images/logo.png" alt="logo"></div>
+        <p>Find us on:</p>
+        <div class="footerLinks">
+            <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Facebook</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Linking the js file -->
+    <script src="scripts/index.js"> </script>
+    <script src="scripts/cart.js"> </script>
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+</body>
+</html>

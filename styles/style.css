@@ -1,0 +1,264 @@
+/* Whole page styles*/
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%; /* for fixed footer */
+    display: inline-block
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    /* for fixed footer */
+    display: flex;
+    flex-direction: column; /*setting the direction of flexible items vertically*/
+    min-height: 100%; /*Setting the minimum height of the body element*/
+    background: #fdfdfd;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 1.428571;
+}
+
+/* Style in Navigation Bar and its elements */
+nav {
+    display: flex; /* display as flexbox*/
+    align-items: center; /* align items verticaly*/
+    background-color: #012169;
+    color: #fdfdfd;
+}
+
+nav .logos {
+    margin: 0 100px; /* adjust margin left and right*/
+}
+
+.navLinks ul{
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    font-weight: bold;
+}
+
+.navLinks li {
+    list-style: none; /* remove order dots*/
+    border-radius: 6px; /* rounding the hover radius */
+}
+
+.navLinks li:hover {
+    background-color: #E8A87C;
+    border-radius:6px;
+}
+
+.navLinks a {
+    text-decoration: none; /* remove link underlines*/
+    color: #f2f2f2;
+    padding: 20px;
+    display: block;
+    font-size: 18px;
+    text-align: center;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+  .navLinks a:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 6px; /* rounding the hover radius */
+}
+
+/* hiding the containers overflow */
+.container{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.navLinks-right {
+    float: right;
+}
+
+.pragraph{
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #000;
+}
+
+/* Change color on hover */
+.navLinks a:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 6px; /* rounding the hover radius */
+}
+
+
+/* styles for ion-icons */
+.cart ion-icon {
+    vertical-align: bottom;
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+.toggleButton {
+    position: absolute; /* fix position*/
+    top: 50px;
+    right: 35px;
+    display: none;
+    flex-direction: column; /* make the bars show as column*/
+    justify-content: space-between;
+    height: 30px; /* set height of the container*/
+    width: 35px; /* set width of the container*/
+}
+
+.toggleButton .bar {
+    height: 4px; /* set size of each bar*/
+    width: 100%;
+    background-color: white; /* set color of each bar for it to appear*/
+
+}
+
+/* Card and Modal Styling */
+.container-fluid {
+    padding: 16px;
+}
+
+.card-img-top {
+    border-radius: 4px;
+}
+
+.img-caption {
+    font-size: 10px;
+}
+
+.card-img-top:hover{
+    opacity: 0.8;
+    transition: .4s ease;
+    cursor: pointer;
+}
+
+.card-title, .modal-title {
+    font-weight: bold;
+}
+
+.card-subtitle {
+    padding-bottom: 8px;
+}
+
+.card:hover {
+    transform: scale(1.01,1.01);
+    transition: .4s ease;
+}
+
+/* Button Styling */
+.button {
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #e4002b;
+}
+
+.button-reset {
+    margin-right: 8px;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #2f2f2f;
+}
+
+.button:hover, .button-reset:hover {
+    color: #000;
+    background-color: #d3d3d3;
+}
+
+/* Footer */
+
+footer {
+    background-color: #012169;
+    text-align: center;
+    padding-top: 40px;
+    margin-top: auto; /* for fixed footer */
+}
+
+footer p {
+    font-weight: bold;
+    color: #f2f2f2;
+    font-size: 24px;
+}
+
+.footerLinks ul {
+    padding: 0;
+    margin:0;
+    display: flex; /*Displaying nav as flexbox that makes it easier to design flexible layout structure*/
+    justify-content: center; /* center items inside the flexbox*/
+}
+
+.footerLinks li {
+    list-style: none;
+}
+
+.footerLinks a {
+    text-decoration: none;
+    color: #f2f2f2;
+    display: block;
+    padding: 20px;
+    margin-bottom: 60px;
+    font-weight: bold;
+}
+
+.footerLinks a:hover {
+    color: #e4002b;
+}
+
+/* Mobile view*/
+@media (max-width: 1024px) {
+    /* displays the mobile toggle button for the nav bar */
+    .toggleButton {
+        display: flex; 
+    }
+
+    .toggleButton:active {
+        background-color: #555;
+        border-style: solid;
+        border-color: #555;
+    }
+
+    /* hides the desktop nav links */
+    .navLinks {
+        display: none; 
+        width: 100%; /* change the width size so the hover affects the whole container*/
+    }
+
+    /* displays the mobile nav links after pressing the togglebutton*/
+    .mobileNavLinks { 
+        display: flex;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav .logo {
+        margin: 0 20px; 
+     }
+
+     .navLinks ul {
+         flex-direction: column; /* change the navbar to list view*/
+         width: 100%; /* change the width size so the hover affects the whole container*/ 
+     }
+
+     .navLinks li {
+         text-align: center;
+     }
+
+     .navLinks a {
+         padding: 15px;
+     }   
+}

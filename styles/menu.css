@@ -1,0 +1,21 @@
+.page-title {
+    padding: 16px 0 16px 0;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* Dropdown Menu Styling */
+.dropdown{
+    text-align: center;
+}
+
+/* Sort and Filter Styling */
+.filter-out {
+    display: none;
+    float: left;
+}
+
+.show {
+    display: inline-block;
+}

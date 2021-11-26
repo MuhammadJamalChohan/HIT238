@@ -1,0 +1,134 @@
+/* Banner style*/
+h1 {
+    font-size: 42px;
+    text-align: center;
+    color: #182628;
+    margin: 24px;
+}
+
+h2 {
+    font-size: 26px;  
+}
+
+.pickMealIntro {
+    margin: 0;
+    background-color: #f2f2f2;
+    padding: 10% 5%;
+}
+
+.pickMealIntro h1 {
+    margin: 0;
+    color: black;
+    text-align: center;
+    font-size: 64px;
+    font-weight: lighter;
+}
+
+.pickMealIntro p {
+    text-align: center;
+    color: #555;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+/* Option buttons style*/
+
+.optionButtons ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.optionButtons li {
+    list-style: none;
+    margin: 10px;
+}
+
+.optionButtons button {
+    padding: 12px;
+    min-width: 360px;
+    background-color: #E27D60;
+    color: #f2f2f2;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all 0.3s ease-out;
+}
+
+.optionButtons button:hover {
+    background-color: #E8A87C;
+}
+
+.optionButtons button:focus {
+    outline: none;
+}
+
+.optionButtons button:active {
+    transform: scale(.98);
+}
+
+/* Card style*/
+.container-fluid {
+    padding-bottom: 48px;
+    width: 75%;
+}
+
+.card:hover {
+    transform: scale(1.01,1.01);
+    transition: .4s ease;
+}
+
+.card-img-top {
+    border-radius: 4px;
+}
+
+.img-caption {
+    font-size: 10px;
+}
+
+.card-img-top:hover{
+    opacity: 0.8;
+    transition: .4s ease;
+    cursor: pointer;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-subtitle {
+    padding-bottom: 8px;
+}
+
+/* Button Styling */
+.button {
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #E27D60;
+}
+
+.button:hover, .button-reset:hover {
+    color: #000;
+    background-color: #d3d3d3;
+}
+
+/* Hide meal */
+
+.yourMealHide {
+    display: none;
+}
+
+/* Change option button size on resize */
+
+@media (max-width: 1024px) {
+    .optionButtons button {
+        min-width: 220px;
+    }
+}
